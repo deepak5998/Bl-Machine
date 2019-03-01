@@ -85,3 +85,33 @@ class UtilityDataStructures:
                     list1[counter2] = list1[counter1]
                     list1[counter1] = temp
         return list1
+
+    def file_Writer_to_Create_File(self, filename, string):
+        try:
+            file = open(filename, 'w')
+            file.write(string)
+            print("Writing successful")
+        except Exception as e:
+            print("The writing stopped because of ", e)
+        file.close()
+
+    @staticmethod
+    def file_Append(filename, string):
+        try:
+            file = open(filename, 'a')
+            file.write(str(string))
+            print("Appending successful")
+        except Exception as e:
+            print("The appending stopped because of ", e)
+        file.close()
+
+    @staticmethod
+    def read_Lines_From_File( filename):
+        try:
+            file = open(filename, 'r')
+            for lines in file:
+                yield lines
+            print("Reading successful")
+        except Exception as e:
+            print("The reading stopped because of ", e)
+        file.close()
