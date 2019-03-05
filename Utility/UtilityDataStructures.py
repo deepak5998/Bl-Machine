@@ -1,5 +1,11 @@
+import numpy as np
+
 class UtilityDataStructures:
 
+
+    def __init__(self):
+        self.numbers = np.array(np.arange(0, 10))
+        self.numbers= np.append(self.numbers, ['!','@','#','$','%','^','&','*','(',')','_','-','+','='])
 
     def arrayQ1(array,num):
         for counter in range(num):
@@ -25,6 +31,21 @@ class UtilityDataStructures:
                     print("Enter a positive number")
             except:
                 print("not a proper input please try again")
+
+    def is_string(self, string):
+            try:
+                if string.__contains__(' '):
+                    print("The string should not contain space")
+                    return False
+
+                for number in self.numbers:
+                    if string.__contains__(number):
+                        print('The string should not contain numbers or special characters please try again')
+                        return False
+                return True
+            except Exception:
+                print("Not a proper input please try again")
+                return False
 
     def delete_from_back(dlist, ditem):
 
