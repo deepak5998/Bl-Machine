@@ -26,12 +26,16 @@ class Birth_Date:
         #     string = input()
         # self.name.append(string)
         # print(self.name)
-        print('Enter date of birth')
-        try:
-            dob = dt(input())
-        except Exception:
-            print("Not a proper input please try again")
-        print(dob)
+        # print('Enter date of birth')
+        # try:
+        #     dob = dt(input())
+        # except Exception:
+        #     print("Not a proper input please try again")
+        # print(dob)
+
+        print("Enter a number")
+        num = self.util.get_positive_integer()
+        print(num)
 
 
 birth_date = Birth_Date()
