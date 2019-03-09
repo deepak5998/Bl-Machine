@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90e64564-c026-4e88-bdcc-1606d3c8db40" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Object oriented_ prob 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week4/Object oriented_ prob 1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week5/DataPreprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/DataPreprocessing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5/Linear_Regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/Linear_Regression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/train.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +65,7 @@
         <option value="$PROJECT_DIR$/Utility/UtilityDataStructures.py" />
         <option value="$PROJECT_DIR$/Week4/Object oriented_ prob 1.py" />
         <option value="$PROJECT_DIR$/Week5/DataPreprocessing.ipynb" />
+        <option value="$PROJECT_DIR$/Week5/Linear_Regression.ipynb" />
       </list>
     </option>
   </component>
@@ -220,7 +221,7 @@
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2539185" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2539185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -231,7 +232,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289256" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289256" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3289256" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289256" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -393,6 +394,13 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week5/Linear_Regression.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="20" />
         </state>
       </provider>
     </entry>
