@@ -1,7 +1,8 @@
 import numpy as np
+import datetime
+
 
 class UtilityDataStructures:
-
 
     def __init__(self):
         self.numbers = np.array(np.arange(0, 10))
@@ -35,7 +36,7 @@ class UtilityDataStructures:
     def is_string(self, string):
             try:
                 if string.__contains__(' '):
-                    print("The string should not contain space")
+                    print("The string should not contain space please try again")
                     return False
 
                 for number in self.numbers:
@@ -46,6 +47,14 @@ class UtilityDataStructures:
             except Exception:
                 print("Not a proper input please try again")
                 return False
+
+    def is_Date(self, date):
+        try:
+            datetime.datetime.strptime(date, '%d-%m-%Y')
+            return True
+        except ValueError:
+            print("Incorrect data format, should be DD-MM-YY please try again")
+            return False
 
     def delete_from_back(dlist, ditem):
 
@@ -116,23 +125,3 @@ class UtilityDataStructures:
             print("The writing stopped because of ", e)
         file.close()
 
-    @staticmethod
-    def file_Append(filename, string):
-        try:
-            file = open(filename, 'a')
-            file.write(str(string))
-            print("Appending successful")
-        except Exception as e:
-            print("The appending stopped because of ", e)
-        file.close()
-
-    @staticmethod
-    def read_Lines_From_File( filename):
-        try:
-            file = open(filename, 'r')
-            for lines in file:
-                yield lines
-            print("Reading successful")
-        except Exception as e:
-            print("The reading stopped because of ", e)
-        file.close()
