@@ -1,5 +1,6 @@
 from Utility.UtilityDataStructures import UtilityDataStructures
 import datetime
+import pickle
 
 
 class Object_Oriented_Problems:
@@ -66,6 +67,7 @@ class Object_Oriented_Problems:
                 if option == 3:
                     try:
                         file.write(str(data))
+                        # pickle.dump(data, 'objectoriented.txt')
                         print("written data successfully")
                     except Exception as e:
                         print("Could no write data as ",e)
