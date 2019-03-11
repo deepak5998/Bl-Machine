@@ -59,38 +59,41 @@ class Object_Oriented_Problems:
             file = open('objectoriented.txt', 'w')
         except Exception as e:
             print("could not open file")
-        while True:
-            print('Enter 1 to enter data\n2 to check in data\n3to exit')
-            option = Object_Oriented_Problems.util.get_positive_integer()
-            if option == 3:
-                try:
-                    file.write(str(data))
-                    print("written data successfully")
-                except Exception as e:
-                    print("Could no write data as ",e)
-                exit()
-            if option == 1:
-                data.append(self.take_input_from_user(data))
-            elif option == 2:
-                if len(data) == 0:
-                    print("There is no data to search")
-                else:
-                    flag = False
-                    print("Enter the name to search")
-                    while True:
-                        name = input()
-                        if Object_Oriented_Problems.util.is_string(name):
-                            break
-                    for item in data:
-                        if item[0] == name:
-                            flag = True
-                            print('data found')
-                            if item[2]=='no':
-                                print('Date of birth :', item[1])
-                            else:
-                                print("date of birth is secret")
-                    if not flag:
-                        print('data not found')
+        try:
+            while True:
+                print('Enter 1 to enter data\n2 to check in data\n3to exit')
+                option = Object_Oriented_Problems.util.get_positive_integer()
+                if option == 3:
+                    try:
+                        file.write(str(data))
+                        print("written data successfully")
+                    except Exception as e:
+                        print("Could no write data as ",e)
+                    exit()
+                if option == 1:
+                    data.append(self.take_input_from_user(data))
+                elif option == 2:
+                    if len(data) == 0:
+                        print("There is no data to search")
+                    else:
+                        flag = False
+                        print("Enter the name to search")
+                        while True:
+                            name = input()
+                            if Object_Oriented_Problems.util.is_string(name):
+                                break
+                        for item in data:
+                            if item[0] == name:
+                                flag = True
+                                print('data found')
+                                if item[2]=='no':
+                                    print('Date of birth :', item[1])
+                                else:
+                                    print("date of birth is secret")
+                        if not flag:
+                            print('data not found')
+        except Exception as e:
+            print("The process stopped as ", e)
 
 
 object_oriented = Object_Oriented_Problems()

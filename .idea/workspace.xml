@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90e64564-c026-4e88-bdcc-1606d3c8db40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week5/object_oriented_practice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Machine learning Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Machine learning Python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Machine_learning_Python.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Machine_learning_Python.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utility/UtilityDataStructures.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utility/UtilityDataStructures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/DataPreprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/DataPreprocessing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5/Linear_Regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/Linear_Regression.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week5/Linear_Regression_Q2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/Linear_Regression_Q2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5/object_oriented_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/object_oriented_practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5/objectoriented.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/objectoriented.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,54 +18,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week5/DataPreprocessing.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Week5/object_oriented_practice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="70" column="22" lean-forward="true" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+            <state relative-caret-position="285">
+              <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
               <folding>
                 <element signature="e#0#63#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Utility/UtilityDataStructures.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1217">
-              <caret line="38" column="79" selection-start-line="38" selection-start-column="79" selection-end-line="38" selection-end-column="79" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week5/Linear_Regression_Q2.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Downloads/Linear_Regression_Q2.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
             </state>
           </provider>
         </entry>
@@ -111,10 +71,10 @@
         <option value="$PROJECT_DIR$/Week4/Matplot_Piechart.ipynb" />
         <option value="$PROJECT_DIR$/Week4/Matplotlib Scatterplot.ipynb" />
         <option value="$PROJECT_DIR$/Week4/Object oriented_ prob 1.py" />
-        <option value="$PROJECT_DIR$/Week5/Linear_Regression.ipynb" />
-        <option value="$PROJECT_DIR$/Week5/Linear_Regression_Q2.ipynb" />
         <option value="$PROJECT_DIR$/Week5/DataPreprocessing.ipynb" />
         <option value="$PROJECT_DIR$/Utility/UtilityDataStructures.py" />
+        <option value="$PROJECT_DIR$/Week5/Linear_Regression_Q2.ipynb" />
+        <option value="$PROJECT_DIR$/Week5/Linear_Regression.ipynb" />
         <option value="$PROJECT_DIR$/Week5/object_oriented_practice.py" />
       </list>
     </option>
@@ -137,17 +97,17 @@
         <subPane>
           <expand>
             <path>
-              <item name="Machine_Learning_Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Machine_Learning_Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Machine learning Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Machine learning Python" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Machine_Learning_Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Machine_Learning_Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Machine learning Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Machine learning Python" type="462c0819:PsiDirectoryNode" />
               <item name="Utility" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Machine_Learning_Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Machine_Learning_Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Machine learning Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Machine learning Python" type="462c0819:PsiDirectoryNode" />
               <item name="Week5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -217,21 +177,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Panda_programs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Panda_programs" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true">
       <module name="Machine learning Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week4" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week4/Panda_programs.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -259,6 +219,12 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Jupyter Notebook.Machine learning Python" />
+      <item itemvalue="Python.Object oriented_ prob 1" />
+      <item itemvalue="Python.object_oriented_practice" />
+      <item itemvalue="Python.Panda_programs" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.object_oriented_practice" />
@@ -290,14 +256,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="67" y="27" width="1299" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2538004" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2539185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36827195" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36694214" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39968154" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -325,7 +292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week4/Panda_Programs.ipynb" />
     <entry file="file:///usr/lib/python3.6/abc.py" />
     <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/pandas/core/dtypes/inference.py" />
     <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/pandas/core/dtypes/generic.py" />
@@ -425,13 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week5/Linear_Regression.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week5/DataPreprocessing.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -449,16 +408,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week5/object_oriented_practice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="70" column="22" lean-forward="true" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Linear_Regression_Q2.ipynb" />
     <entry file="file://$PROJECT_DIR$/Week5/Linear_Regression_Q2.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -466,10 +416,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/Linear_Regression_Q2.ipynb">
+    <entry file="file://$PROJECT_DIR$/Week5/Linear_Regression.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week5/object_oriented_practice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
