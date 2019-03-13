@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90e64564-c026-4e88-bdcc-1606d3c8db40" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Week5/Linear Regression/problem_1/Linear_Regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/Linear Regression/problem_1/Linear_Regression.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week5/Linear_Regression_Q2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/Linear_Regression_Q2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5/Practice stuff/Linear_Regression-Copy1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5/Practice stuff/Untitled.ipynb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,29 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week5/object_oriented_practice.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week5/Linear_Regression_Q2.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,10 +59,11 @@
         <option value="$PROJECT_DIR$/Week5/Linear_Regression.ipynb" />
         <option value="$PROJECT_DIR$/Week5/object_oriented_practice.py" />
         <option value="$PROJECT_DIR$/Week5/Linear_Regression_Q2.ipynb" />
+        <option value="$PROJECT_DIR$/Week5/Linear Regression/problem_1/Linear_Regression.ipynb" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="76" />
     <option name="y" value="46" />
     <option name="width" value="1280" />
@@ -106,12 +88,13 @@
             <path>
               <item name="Machine learning Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Machine learning Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Utility" type="462c0819:PsiDirectoryNode" />
+              <item name="Week6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Machine learning Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Machine learning Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Week5" type="462c0819:PsiDirectoryNode" />
+              <item name="Week6" type="462c0819:PsiDirectoryNode" />
+              <item name="Multi_Linear_Regression" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -224,8 +207,8 @@
     <list>
       <item itemvalue="Jupyter Notebook.Machine learning Python" />
       <item itemvalue="Python.Object oriented_ prob 1" />
-      <item itemvalue="Python.object_oriented_practice" />
       <item itemvalue="Python.Panda_programs" />
+      <item itemvalue="Python.object_oriented_practice" />
     </list>
     <recent_temporary>
       <list>
@@ -258,21 +241,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="27" width="1299" height="741" extended-state="6" />
-    <editor active="true" />
+    <frame x="67" y="27" width="1299" height="741" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2539185" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2539185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36694214" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36694214" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39968154" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289256" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32719547" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32561985" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -393,13 +375,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week5/DataPreprocessing.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Week5/DataPreprocessing.ipynb" />
     <entry file="file://$PROJECT_DIR$/Utility/UtilityDataStructures.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1217">
@@ -411,27 +387,13 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/Linear_Regression_Q2.ipynb" />
-    <entry file="file://$PROJECT_DIR$/Week5/Linear_Regression.ipynb">
+    <entry file="file://$PROJECT_DIR$/Week5/Linear_Regression.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Week5/object_oriented_practice.py" />
+    <entry file="file://$PROJECT_DIR$/Week5/Linear_Regression_Q2.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Week5/Linear Regression/problem_1/Linear_Regression.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week5/object_oriented_practice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week5/Linear_Regression_Q2.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
+          <selected id="22" />
         </state>
       </provider>
     </entry>
