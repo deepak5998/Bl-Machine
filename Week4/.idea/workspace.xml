@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c91e7587-0931-4028-b49d-ed68f8d13ddb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Week4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All_Numpy_Programs.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/All_Numpy_Programs.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/All_Numpy_Programs-Copy1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/All_Numpy_Programs.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFrame.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matplot_Piechart.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matplotlib Scatterplot.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matplotlib_Barchart.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matplotlib_basic_programs.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matplotlib_programs.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NumPy array to a text file.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object oriented_ prob 1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Panda_Programs.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seaborn Bar plot.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Seaborn Bar plot.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medal.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy_to_array.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6/KNN algorithm/problem2/problem_2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Week6/KNN algorithm/problem2/problem_2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6/Logistic Regression/Problem1/problem1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Week6/Logistic Regression/Problem1/problem1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6/Multi_Linear_Regression/Multi_linear_Regression_Problem_1-Copy1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Week6/Multi_Linear_Regression/Multi_linear_Regression_Problem_1-Copy1.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,10 +42,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="77" />
-    <option name="y" value="47" />
-    <option name="width" value="1279" />
-    <option name="height" value="701" />
+    <option name="x" value="76" />
+    <option name="y" value="46" />
+    <option name="width" value="1280" />
+    <option name="height" value="702" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -126,15 +142,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="27" width="1299" height="741" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24557352" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24520819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" weight="0.3289256" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3289256" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5007837" side_tool="true" weight="0.3289256" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992163" weight="0.31687897" />
@@ -142,23 +154,28 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007837" side_tool="true" weight="0.3289256" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289256" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Untitled.ipynb">
+    <entry file="file://$PROJECT_DIR$/Untitled.ipynb" />
+    <entry file="file://$PROJECT_DIR$/../Week2/SetQ12.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/All_Numpy_Programs.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Week2/SetQ12.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/All_Numpy_Programs.ipynb">
+    <entry file="file://$PROJECT_DIR$/Seaborn Bar plot.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
