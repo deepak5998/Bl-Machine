@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90e64564-c026-4e88-bdcc-1606d3c8db40" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Week5/Linear Regression/problem_2/Linear_Regression_Q2-Copy1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/Linear Regression/problem_2/Linear_Regression_Q2-Copy1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5/Linear Regression/problem_2/Linear_Regression_Q2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/Linear Regression/problem_2/Linear_Regression_Q2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week6/KNN algorithm/Problem_1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week6/KNN algorithm/problem1/Problem_1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/KNN algorithm/problem1/Problem_1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week6/KNN algorithm/problem1/Untitled.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Week6/KNN algorithm/problem2/problem_2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/KNN algorithm/problem2/problem_2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week6/Logistic Regression/Problem2/Problem2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/Logistic Regression/Problem2/Problem2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week6/Multi_Linear_Regression/Multi_linear_Regression_Problem_1-Copy1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/Multi_Linear_Regression/Multi_linear_Regression_Problem_1-Copy1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week6/Multi_Linear_Regression/Untitled.ipynb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +82,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,7 +105,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -120,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.object_oriented_practice">
+  <component name="RunManager" selected="Python.Zscore">
     <configuration default="true" type="JupiterNotebook" factoryName="Jupyter Notebook" singleton="false">
       <module name="Machine learning Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,6 +188,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Zscore" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Machine learning Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week3/StatisticsAndProbablitiy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week3/StatisticsAndProbablitiy/Zscore.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="object_oriented_practice" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machine learning Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,13 +231,15 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Jupyter Notebook.Machine learning Python" />
       <item itemvalue="Python.Object oriented_ prob 1" />
       <item itemvalue="Python.Panda_programs" />
       <item itemvalue="Python.object_oriented_practice" />
-      <item itemvalue="Jupyter Notebook.Machine learning Python" />
+      <item itemvalue="Python.Zscore" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Zscore" />
         <item itemvalue="Python.object_oriented_practice" />
         <item itemvalue="Python.Object oriented_ prob 1" />
         <item itemvalue="Python.Panda_programs" />
@@ -240,18 +271,18 @@
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2539185" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2539185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36694214" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36694214" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39968154" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289256" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32454696" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32454696" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -391,6 +422,13 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week3/StatisticsAndProbablitiy/Zscore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
         </state>
       </provider>
     </entry>
