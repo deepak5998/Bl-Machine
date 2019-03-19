@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90e64564-c026-4e88-bdcc-1606d3c8db40" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Week5/Linear Regression/problem_2/Linear_Regression_Q2-Copy1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/Linear Regression/problem_2/Linear_Regression_Q2-Copy1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Linear Regression/problem_2/Linear_Regression_Q2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/Linear Regression/problem_2/Linear_Regression_Q2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week6/KNN algorithm/Problem_1.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week6/KNN algorithm/problem1/Problem_1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/KNN algorithm/problem1/Problem_1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week6/KNN algorithm/problem1/Untitled.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week6/KNN algorithm/problem2/problem_2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/KNN algorithm/problem2/problem_2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week6/Logistic Regression/Problem2/Problem2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/Logistic Regression/Problem2/Problem2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week6/Multi_Linear_Regression/Multi_linear_Regression_Problem_1-Copy1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/Multi_Linear_Regression/Multi_linear_Regression_Problem_1-Copy1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week6/Multi_Linear_Regression/Untitled.ipynb" beforeDir="false" />
-    </list>
+    <list default="true" id="90e64564-c026-4e88-bdcc-1606d3c8db40" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +266,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36694214" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36694214" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39968154" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
