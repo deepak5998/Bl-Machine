@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="90e64564-c026-4e88-bdcc-1606d3c8db40" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utility/DataPreprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utility/DataPreprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week6/KNN algorithm/problem1/Build a model to predict whether client will subscribe to term deposit.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/KNN algorithm/problem1/Build a model to predict whether client will subscribe to term deposit.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week6/Logistic Regression/Problem1/Logistic regression Build a model to predict whether client will subscribe to term deposit.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/Logistic Regression/Problem1/Logistic regression Build a model to predict whether client will subscribe to term deposit.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week6/Logistic Regression/Problem2/Logistic Build a machine learning model to predict whether a person makes over 50K a year or not.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/Logistic Regression/Problem2/Logistic Build a machine learning model to predict whether a person makes over 50K a year or not.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +15,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Utility/DataPreprocessing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,6 +71,7 @@
         <option value="$PROJECT_DIR$/Week5/object_oriented_practice.py" />
         <option value="$PROJECT_DIR$/Week5/Linear_Regression_Q2.ipynb" />
         <option value="$PROJECT_DIR$/Week5/Linear Regression/problem_1/Linear_Regression.ipynb" />
+        <option value="$PROJECT_DIR$/Utility/DataPreprocessing.py" />
       </list>
     </option>
   </component>
@@ -81,6 +96,11 @@
             <path>
               <item name="Machine learning Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Machine learning Python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Machine learning Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Machine learning Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Utility" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Machine learning Python" type="b2602c69:ProjectViewProjectNode" />
@@ -249,6 +269,14 @@
       <option name="presentableId" value="Default" />
       <updated>1551162451698</updated>
     </task>
+    <task id="LOCAL-00001" summary="Class to implement Data preprocessing functions">
+      <created>1553004509200</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553004509200</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -274,9 +302,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289256" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32454696" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.3272727" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32396695" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -287,6 +315,8 @@
       <path value="$PROJECT_DIR$/temp/Machine_Learning_Python" />
       <path value="$PROJECT_DIR$/Week5" />
     </ignored-roots>
+    <MESSAGE value="Class to implement Data preprocessing functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class to implement Data preprocessing functions" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Week4/NumPy array to a text file.ipynb" />
@@ -359,17 +389,18 @@
     <entry file="file://$PROJECT_DIR$/Week5/Linear_Regression.ipynb" />
     <entry file="file://$PROJECT_DIR$/Week5/object_oriented_practice.py" />
     <entry file="file://$PROJECT_DIR$/Week5/Linear_Regression_Q2.ipynb" />
-    <entry file="file://$PROJECT_DIR$/Week5/Linear Regression/problem_1/Linear_Regression.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Week5/Linear Regression/problem_1/Linear_Regression.ipynb" />
     <entry file="file://$PROJECT_DIR$/Week3/StatisticsAndProbablitiy/Zscore.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utility/DataPreprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>

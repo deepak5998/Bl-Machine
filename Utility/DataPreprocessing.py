@@ -31,3 +31,9 @@ class DataPreprocessing:
         # here we reset index as if the index remain same for accessing by index could be difficult
         return dataframe.head(len(dataframe)-numrows).reset_index(), test_data.reset_index()
 
+    @staticmethod
+    def sigmoid_Function(Z):
+        gz= np.divide(1, 1+np.power(np.e,np.multiply(-1,Z)))
+        return gz
+    
+    
