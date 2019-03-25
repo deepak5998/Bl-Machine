@@ -35,5 +35,5 @@ class DataPreprocessing:
     def sigmoid_Function(Z):
         gz= np.divide(1, 1+np.power(np.e,np.multiply(-1,Z)))
         return gz
-    
+
     
