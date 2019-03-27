@@ -4,7 +4,7 @@ import numpy as np
 class DataPreprocessing:
 
     def __init__(self):
-        print("Data PreProcessign object created")
+        print("Data PreProcessign object created ")
 
     @staticmethod
     def complete_Replace(dataframe, original, new):
