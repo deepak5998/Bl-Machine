@@ -3,10 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="90e64564-c026-4e88-bdcc-1606d3c8db40" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Utility/DataPreprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utility/DataPreprocessing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week6/KNN algorithm/problem1/Build a model to predict whether client will subscribe to term deposit.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/KNN algorithm/problem1/Build a model to predict whether client will subscribe to term deposit.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week6/Logistic Regression/Problem1/Logistic regression Build a model to predict whether client will subscribe to term deposit.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/Logistic Regression/Problem1/Logistic regression Build a model to predict whether client will subscribe to term deposit.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week6/Logistic Regression/Problem2/Logistic Build a machine learning model to predict whether a person makes over 50K a year or not.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/Logistic Regression/Problem2/Logistic Build a machine learning model to predict whether a person makes over 50K a year or not.ipynb" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Week5/Linear Regression/problem_1/Linear_Regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/Linear Regression/problem_1/Linear_Regression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week6/Multi_Linear_Regression/Multi_linear_Regression_Problem_1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/Multi_Linear_Regression/Multi_linear_Regression_Problem_1.ipynb" afterDir="false" />
+>>>>>>> master
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +22,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Utility/DataPreprocessing.py">
           <provider selected="true" editor-type-id="text-editor">
+=======
+        <entry file="file://$PROJECT_DIR$/Week5/Linear Regression/problem_1/Linear_Regression.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+>>>>>>> master
             <state>
               <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
@@ -30,8 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -70,8 +80,14 @@
         <option value="$PROJECT_DIR$/Week5/Linear_Regression.ipynb" />
         <option value="$PROJECT_DIR$/Week5/object_oriented_practice.py" />
         <option value="$PROJECT_DIR$/Week5/Linear_Regression_Q2.ipynb" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Week5/Linear Regression/problem_1/Linear_Regression.ipynb" />
         <option value="$PROJECT_DIR$/Utility/DataPreprocessing.py" />
+=======
+        <option value="$PROJECT_DIR$/Week6/Multi_Linear_Regression/untitiled.ipynb" />
+        <option value="$PROJECT_DIR$/Week6/Multi_Linear_Regression/Multi_linear_Regression_Problem_1.ipynb" />
+        <option value="$PROJECT_DIR$/Week5/Linear Regression/problem_1/Linear_Regression.ipynb" />
+>>>>>>> master
       </list>
     </option>
   </component>
@@ -100,17 +116,20 @@
             <path>
               <item name="Machine learning Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Machine learning Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Utility" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Machine learning Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Machine learning Python" type="462c0819:PsiDirectoryNode" />
               <item name="Week6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Machine learning Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Machine learning Python" type="462c0819:PsiDirectoryNode" />
               <item name="Week6" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+            </path>
+            <path>
+              <item name="Machine learning Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Machine learning Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Week6" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> master
               <item name="Multi_Linear_Regression" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -291,7 +310,7 @@
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2539185" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2539185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -372,8 +391,28 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Week4/Object oriented_ prob 1.py" />
     <entry file="file://$PROJECT_DIR$/Week4/Matplotlib_basic_programs.ipynb" />
+=======
+    <entry file="file://$PROJECT_DIR$/Week4/Object oriented_ prob 1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#459#478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week4/Matplotlib_basic_programs.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> master
     <entry file="file://$PROJECT_DIR$/Week5/DataPreprocessing.ipynb" />
     <entry file="file://$PROJECT_DIR$/Utility/UtilityDataStructures.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -389,6 +428,7 @@
     <entry file="file://$PROJECT_DIR$/Week5/Linear_Regression.ipynb" />
     <entry file="file://$PROJECT_DIR$/Week5/object_oriented_practice.py" />
     <entry file="file://$PROJECT_DIR$/Week5/Linear_Regression_Q2.ipynb" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Week5/Linear Regression/problem_1/Linear_Regression.ipynb" />
     <entry file="file://$PROJECT_DIR$/Week3/StatisticsAndProbablitiy/Zscore.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -399,6 +439,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Utility/DataPreprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
+=======
+    <entry file="file://$PROJECT_DIR$/Week6/Multi_Linear_Regression/untitiled.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Week6/Multi_Linear_Regression/Multi_linear_Regression_Problem_1.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week5/Linear Regression/problem_1/Linear_Regression.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+>>>>>>> master
         <state>
           <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
