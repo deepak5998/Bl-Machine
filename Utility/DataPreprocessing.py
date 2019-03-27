@@ -1,10 +1,10 @@
-import Pandas as pd
+import pandas as pd
 import numpy as np
 
 class DataPreprocessing:
 
     def __init__(self):
-        print()
+        print("Data PreProcessign object created successfully")
 
     @staticmethod
     def complete_Replace(dataframe, original, new):
@@ -36,4 +36,6 @@ class DataPreprocessing:
         gz= np.divide(1, 1+np.power(np.e,np.multiply(-1,Z)))
         return gz
 
-    
+    @staticmethod
+    def cube(x):
+        print(x**3)
