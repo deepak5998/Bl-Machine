@@ -9,15 +9,18 @@ class DataPreprocessing:
 
     @staticmethod
     def complete_Replace(dataframe, original, new):
-        return dataframe[original].replace(original, new, inplace=True)
-
+        dataframe =  dataframe[original].replace(original, new, inplace=True)
+        return DataPreprocessing.remove_index(dataframe)
+    
     @staticmethod
     def one_hot_encoder(dataframe):
-        return pd.get_dummies(dataframe)
-
+        dataframe = pd.get_dummies(dataframe)
+        return DataPreprocessing.remove_index(dataframe)
+        
     @staticmethod
     def fill_Na(dataframe, column, fill):
         dataframe[column] = dataframe[column].fillna(fill)
+        dataframe = DataPreprocessing.remove_index(dataframe)
         return dataframe
 
     @staticmethod
@@ -25,20 +28,25 @@ class DataPreprocessing:
         dataframe[column] = np.divide(np.subtract(dataframe, dataframe[column].min()),
                                       np.subtract(dataframe[column].max(),dataframe[column].min()))
         return dataframe[column]
-
+    
+    @staticmethod
+    def normalise(dataframe):
+        # using log
+        return np.log(dataframe)
+    
+    @staticmethod
+    def standardize(dataframe):
+        dataframe = np.divide(np.subtract(dataframe,np.array(dataframe.mean(axis=1)).reshape(dataframe.shape[0],1))
+                              ,np.array(dataframe.std(axis=1)).reshape(dataframe.shape[0],1))
+        return dataframe                                                                                        
+        
     @staticmethod
     def split(dataframe, numrows):
-        test_data = dataframe.tail(numrows).reset_index(drop=True).reset_index()
+        test_data = dataframe.tail(numrows).reset_index(drop=True)
         # here we reset index as if the index remain same for accessing by index could be difficult
-        dataframe = dataframe.head(dataframe.shape[0]-numrows).reset_index()
-        try:
-            test_data.drop(['index'],axis=1)
-        except Exception as e:
-            print()
-        try: 
-            dataframe.drop(['index'],axis=1)
-        except Exception as e:
-            print()
+        dataframe = dataframe.head(dataframe.shape[0]-numrows).reset_index(drop=True)
+        dataframe = DataPreprocessing.remove_index(dataframe)
+        test_data = DataPreprocessing.remove_index(test_data)
         return dataframe, test_data
 
     @staticmethod
@@ -53,16 +61,24 @@ class DataPreprocessing:
     @staticmethod
     def separate(dataframe,col):
         output = dataframe[col]
-        return dataframe.drop(col,axis=1),output
+        dataframe = dataframe.drop(col,axis=1)
+        dataframe = DataPreprocessing.remove_index(dataframe)
+        output = DataPreprocessing.remove_index(output)
+        return dataframe,output
     
     @staticmethod
     def remove_outlier(dataframe):
         dataframe = dataframe[np.abs(dataframe - dataframe.mean()) <= (3 * dataframe.std())]
+        dataframe = DataPreprocessing.remove_index(dataframe)
+        return dataframe
+    
+    @staticmethod
+    def remove_index(dataframe):
         try:
-            dataframe.drop('index')
+            dataframe = dataframe.drop('index', axis=1)
         except Exception as e:
             pass
-        return dataframe.reset_index()
+        return dataframe
     
     @staticmethod
     def main(dataframe):
