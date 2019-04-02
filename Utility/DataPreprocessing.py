@@ -81,6 +81,19 @@ class DataPreprocessing:
         return dataframe
     
     @staticmethod
+    def duplicates_count(dataframe):
+        return dataframe.duplicated().sum()
+    
+    @staticmethod
+    def root_mean_square(predicted,original):
+        error = np.sqrt(np.sum(np.square(np.divide(np.subtract(predicted,original),predicted.shape[0]))))
+        return error
+    
+    def mean_absolute_error(predicted,original):
+        error = np.divide(np.sum(np.abs(np.subtract(predicted,original))),predicted.shape[0])
+        return error
+        
+    @staticmethod
     def main(dataframe):
         dataframe.hist(figsize=(10,10))
         plt.show()
