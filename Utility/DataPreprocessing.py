@@ -36,9 +36,11 @@ class DataPreprocessing:
     
     @staticmethod
     def standardize(dataframe):
+        Y = dataframe['y']
         dataframe = np.divide(np.subtract(dataframe,np.array(dataframe.mean(axis=1)).reshape(dataframe.shape[0],1))
                               ,np.array(dataframe.std(axis=1)).reshape(dataframe.shape[0],1))
-        return dataframe                                                                                        
+        dataframe['y'] = Y
+        return dataframe                                                                                    
         
     @staticmethod
     def split(dataframe, numrows):
