@@ -5,7 +5,11 @@ import matplotlib.pyplot as plt
 class DataPreprocessing:
 
     def __init__(self):
+<<<<<<< HEAD
         print("Data PreProcessign object created successfully")
+=======
+        print("Data PreProcessign object created ")
+>>>>>>> master
 
     @staticmethod
     def complete_Replace(dataframe, original, new):
@@ -58,6 +62,7 @@ class DataPreprocessing:
 
     @staticmethod
     def cube(x):
+<<<<<<< HEAD
         print(x**3)
     
     @staticmethod
@@ -103,3 +108,6 @@ class DataPreprocessing:
         col = input().split(',')
         print(col)
         print(list(col))
+=======
+        print(x**3)
+>>>>>>> master
