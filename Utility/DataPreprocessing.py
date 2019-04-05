@@ -5,11 +5,7 @@ import matplotlib.pyplot as plt
 class DataPreprocessing:
 
     def __init__(self):
-<<<<<<< HEAD
         print("Data PreProcessign object created successfully")
-=======
-        print("Data PreProcessign object created ")
->>>>>>> master
 
     @staticmethod
     def complete_Replace(dataframe, original, new):
@@ -62,7 +58,6 @@ class DataPreprocessing:
 
     @staticmethod
     def cube(x):
-<<<<<<< HEAD
         print(x**3)
     
     @staticmethod
@@ -96,10 +91,33 @@ class DataPreprocessing:
         error = np.sqrt(np.sum(np.square(np.divide(np.subtract(predicted,original),predicted.shape[0]))))
         return error
     
+    @staticmethod
     def mean_absolute_error(predicted,original):
         error = np.divide(np.sum(np.abs(np.subtract(predicted,original))),predicted.shape[0])
         return error
-        
+    
+    '''
+    # using SKLearn
+    @staticmethod
+    def handle_missing_values(dataframe,cols):
+    # inside sklearn.preprocessing
+    imputer = Imputer(missing_values='NaN', strategy='mean', axis=0)
+    # strategy can be median or most_frequent
+    imputer.fit(dataframe.iloc[:,cols[0]])
+    for num in cols:
+        dataframe.iloc[:,num] = imputer.transform(dataframe.iloc[:,num])
+
+    def one_hot_encoder(dataframe,cols):
+    l_encoder = LabelEncoder() 
+    # label encoder is in preprocessing it'll convert the number of variables to 0,1,2,.. depending on  number of variables
+    for col in cols:
+        l_encoder.fit_transform(dataframe[:,col])
+        # if there are only 2 variables in the category eg. yes or no then we do not do the one hot encoding as 
+        one_encoder = OneHotEncoder(categorical_features=[col])# cols is the column to be one hod encoded
+        dataframe[:,col]=one_encoder.fit_transform(dataframe[:,col]).toarray()
+    return dataframe
+    '''
+    
     @staticmethod
     def main(dataframe):
         dataframe.hist(figsize=(10,10))
@@ -108,6 +126,6 @@ class DataPreprocessing:
         col = input().split(',')
         print(col)
         print(list(col))
-=======
         print(x**3)
->>>>>>> master
+        
+        
