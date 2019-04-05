@@ -96,6 +96,10 @@ class DataPreprocessing:
         error = np.divide(np.sum(np.abs(np.subtract(predicted,original))),predicted.shape[0])
         return error
     
+    @staticmethod
+    def remove_Duplicates(dataframe):
+        return dataframe.drop_duplicates(keep='first')
+        
     '''
     # using SKLearn
     @staticmethod
