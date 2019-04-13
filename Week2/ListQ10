@@ -1,0 +1,24 @@
+flag = True
+while flag:
+    try:
+        list_item = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+        print(list_item)
+        # count stores the number of the elements deleted
+        count = 0
+        list_item.__delitem__(0 - count)
+        # as 1 element deleted increment the value of count
+        count += 1
+        print(list_item)
+        list_item.__delitem__(4 - count)
+        count += 1
+        print(list_item)
+        list_item.__delitem__(5 - count)
+        count += 1
+        print(list_item)
+
+    except Exception as exep:
+        print("Process stopped because %s" % exep)
+
+    print("To exit press 0 else press any other number")
+    if input() == 0:
+        flag = False
