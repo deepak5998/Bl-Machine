@@ -1,4 +1,6 @@
 # Machine_Learning_Python
+This file gives information about the contents of this repository
+
 Week 2 is for data structures: It consist Programs on Array, list , dictionary Tuple Strings
 Week 3 is about mathematics:
   1. Linear Algebra contains all the programs related to the Matrices
