@@ -1,3 +1,4 @@
+# it tells which file and folder should not be pushed to git(Remote repository)
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

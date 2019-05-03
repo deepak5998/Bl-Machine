@@ -1,7 +1,7 @@
 class BayesTheorem:
 
     def __init__(self):
-        # chances of person having the cancer
+        # chances of person having the cancer 
         self.p_having_cancer = 1 / 100
         # probability of the +ve test that are true
         self.p_test_true = 90 / 100
