@@ -14,6 +14,12 @@ develop-eggs/
 dist/
 downloads/
 eggs/
+/Week15/CNN problems/dataset/*
+dataset/*
+
+KMeans Clustering/Problem2/Data/*
+
+
 .eggs/
 lib/
 lib64/
